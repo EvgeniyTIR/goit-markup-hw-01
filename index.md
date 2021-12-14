@@ -1,37 +1,99 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/EvgeniyTIR/goit-markup-hw-01/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EvgeniyTIR/goit-markup-hw-01/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+</head>
+    <body>
+        <!--Заголовок-->
+        <header>
+            <nav>
+            <a href="">WebStudio</a> 
+                <ul>
+                    <li><a href="">Студия</a></li>
+                    <li><a href="">Портфолио</a></li>
+                    <li><a href="">Контакті</a></li>
+                </ul>
+             </nav>
+                <div>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                </div>
+            
+        </header>
+        <main>
+                    <!--  блок заказа услуг -->
+                    <div>
+                        <section>
+                            <h1>Эффективные решения </br> для вашего бизнеса</h1>
+                        </section>
+                        <button type="button">Заказать услугу</button>
+                    </div>
+                    <!-- Мейн инфо блок -->
+                    <section>
+                        <h2>Особенности</h2>
+                        <ul>
+                            <li>
+                                <h3>Внимание к деталям</h3>
+                                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                            </li>
+                            <li>
+                                <h3>Пунктуальность</h3>
+                                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                            </li>
+                            <li>
+                                <h3>Планирование</h3>
+                                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                            </li>
+                            <li>
+                                <h3>Современные технологии</h3>
+                                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Чем мы занимаемся</h2>
+                        <ul>
+                            <li><img src="./images/job1.png" alt="box1" width="370" height="294"> </li>
+                            <li><img src="./images/job2.png" alt="box2" width="370" height="294"></li>
+                            <li><img src="./images/job3.png" alt="box3" width="370" height="294"></li>
+                        </ul>
+                    </section>
+                    <!--Секция - Наша команда-->
+                    <section>
+                        <h2>Наша команда</h2>
+                        <ul class="team">
+                            <li><img src="./images/mate1.png" alt="Игорь Демьяненко" width="270" height="260">
+                                <h3>Игорь Демьяненко</h3>
+                                <p>Product Designer</p>
+                            </li>
+                            <li><img src="./images/mate2.png" alt="Ольга Репина"width="270" height="260">
+                                <h3>Ольга Репина</h3>
+                                <p>Frontend Developer</p>
+                            </li>
+                            <li><img src="./images/mate3.png" alt="Николай Тарасов"width="270" height="260">
+                                <h3>Николай Тарасов</h3>
+                                <p>Marketing</p>
+                            </li>
+                            <li><img src="./images/mate4.jpg" alt="Михаил Ермаков"width="270" height="260">
+                                <h3>Михаил Ермаков</h3>
+                                <p>UI Designer</p>
+                            </li>
+                        </ul>
+                    
+                    
+                    </section>
+        </main>
+        <!-- Футер подвал  -->
+        <footer>
+                <a href="">WebStudio</a>
+                <ul>
+                    <li><address>г. Киев, пр-т Леси Украинки, 26</address></li>
+                    <li><p>info@example.com</p></li>
+                    <li><p>+38 099 111 11 11</p></li>
+                </ul>
+        </footer>
+    </body>
+</html>
